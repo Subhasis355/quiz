@@ -1,0 +1,38 @@
+
+body{
+
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
+.formContainer{
+    position: absolute;
+    height: 300px;
+    width:500px;
+    background-color: rgb(184, 182, 180);
+    color: black;
+    top: 30%;
+    left: 38%;
+    font: 1em;
+    border: 5px solid white;
+
+}
+#signupForm{
+    width: 438px;
+    margin-left: 20px;
+}
+.full-width{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+.error{
+    width: 100%;
+    font-size: 1em;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+    color: rgb(238, 43, 76);
+}

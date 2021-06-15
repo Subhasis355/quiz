@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>LOGIN PAGE</title>
+</head>
+<body>
+    <div class="formContainer">
+        <h1>SIGNUP FORM</h1>
+        <form name="myForm" id="signupForm" method="post" action="index.html" onsubmit="return submitForm()">
+            <label for="emailid" style="margin-left: 5px;">ENTER EMAIL ID </label>
+            <input class="full-width" type="text" name="emailid" id="emailid" placeholder="ENTER MAIL ID" autocomplete="off" ><br>
+            <label for="password" style="margin-left: 5px;"> PASSWORD </label>
+            <input class="full-width" type="password" name="password" id="pass" placeholder="ENTER THE PASSWORD" autocomplete="off"><br>
+            <label for="conPassword" style="margin-left: 5px;"> CONFIRM PASSWORD </label>
+            <input class="full-width" type="password" name="conpassword" id="conpass" placeholder="CONFIRM PASSWORD" autocomplete="off"><br>
+            <input class="submit-btn" type="submit" value="Submit" style=" margin-left: 5px; margin-top:5px;"><br>
+            <p id="error" class="error"></p>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

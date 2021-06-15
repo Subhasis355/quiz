@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bokac{
+    display: grid;
+    place-items: center;
+    font-size: 2em;
+    color: rgb(181, 194, 2);
+    border:2px solid black;
+    background-color: black;
+}
+.qpannel{
+    margin: 10px 40px;
+    padding-bottom: 10%;
+    position: relative;
+    font-size: 1.5em;
+    border:5px solid rgb(8, 0, 78);
+    background-color: rgb(30, 21, 107);
+    color: rgb(255, 255, 255);
+}
+.btnClick{
+    margin:20px;
+    width: 50px;
+    cursor: pointer;
+    height:50px;
+    background-image: linear-gradient(to bottom right, rgb(255, 16, 16), yellow);
+    box-shadow: -5px -5px 5px red;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+}
